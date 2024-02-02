@@ -1,0 +1,58 @@
+ body {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+     background-image: url(./kkpo.jpg);
+ }
+
+ .card {
+     background-color: blueviolet;
+     width: 400px;
+     height: 300px;
+     border-radius: 20px;
+     text-align: center;
+     margin-top: 2px;
+     overflow: hidden;
+     /* Hide overflow content */
+
+ }
+
+ .card input {
+     border: none;
+     border-bottom: 1px solid gainsboro;
+     /* You can adjust the color and style as needed */
+     outline: none;
+     /* Remove the default focus outline */
+     background: transparent;
+     /* Make the background transparent */
+     width: 60%;
+     /* Ensure the input takes up the full width of the container */
+     margin: 15px 0;
+     /* Add some vertical spacing between inputs */
+     margin-top: 0px;
+ }
+
+ h3 {
+     color: #333;
+     /* Text color for the heading */
+ }
+
+ button {
+     background-color: #4CAF50;
+     /* Green background color */
+     color: white;
+     /* White text color */
+     padding: 10px 20px;
+     /* Adjust padding as needed */
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     /* Add a pointer cursor on hover */
+ }
+
+ button:hover {
+     background-color: #45a049;
+     /* Darker green on hover */
+ }
